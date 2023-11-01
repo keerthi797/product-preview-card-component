@@ -41,15 +41,10 @@ body{
   margin-left: 20px;
   margin-left: 20px;  
 }
-.price{
-  text-decoration: line-through;
-}
 .amount{
   font-family: 'Fraunces', serif;
-  color:  hsl(158, 36%, 37%);;
-  
+  color:  hsl(158, 36%, 37%);  
 }
-
 .heading{
   font-family: 'Fraunces', serif;
 }
@@ -64,6 +59,7 @@ button{
   border-radius: 8px;
   align-items: center;
   text-align: center;  
+  cursor:pointer;
 }
 button img{
   text-align: center;
@@ -81,7 +77,6 @@ button img{
   .container{
     flex-direction: column;
   }
-
   .content img{
     margin-bottom: 0;
     padding: 0;
