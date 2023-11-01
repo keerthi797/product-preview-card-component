@@ -60,6 +60,7 @@ button{
   align-items: center;
   text-align: center;  
   cursor:pointer;
+  border:none;
 }
 button img{
   text-align: center;
