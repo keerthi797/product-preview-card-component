@@ -2,24 +2,27 @@ body{
   background-color:hsl(30, 38%, 92%);
   margin: 0; 
 }
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
-
 .container{
   display: flex;
   justify-content: center;
   align-items:center; 
   margin-top: 80px; 
 }
+.break-word{
+  display: block;
+}
 .heading-1{
   letter-spacing: 5px;
   text-transform: uppercase;
 }
-.content img{
+.desktop_img{
   width:250px;
   height: 400px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
+}
+.mobile_img{
+  display: none;
 }
 .txt{
   width:250px;
@@ -78,13 +81,23 @@ button img{
   .container{
     flex-direction: column;
   }
-  .content img{
+   .break-word{
+    display: none;
+  }
+   .mobile_img{
     margin-bottom: 0;
     padding: 0;
     display: block;
-    border-radius: 5px 5px 0px 0px;
+    border-radius: 7px 7px 0px 0px;
+    height: 210px;
+    width: 280px;
   }
-   .txt{   
-    border-radius: 0px 0px 5px 5px;
+   .desktop_img{
+    display: none;
+  }
+    .txt{   
+    border-radius: 0px 0px 7px 7px;
+    height: 350px;
+    width: 280px;
   }
 }
